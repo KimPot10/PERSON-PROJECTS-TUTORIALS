@@ -15,6 +15,7 @@ print(num2)
 #format() method
 
 #basic usage
+"""""
 name = 'Jerson' 
 print("I'm {}".format(name))
 
@@ -26,3 +27,11 @@ print("My whole name is {}".format(surname))
 
 contact = "09602059511"
 print("Contact Number: {}".format(contact))
+"""
+
+#multiple Values. basta in order lang siya bes
+age = 21
+city = "Caloocan"
+wordCity = "City" 
+print("I'm {}. Currently residing at {} {}".format(age, city, wordCity))
+
