@@ -35,15 +35,13 @@ name = input("What's your name?: ")
 print(f"Hello, {name}!")
 
 
-x = input("Input First Number: ")
+x = int(input("Input First Number: "))
 
 y = input("input second number: ")
 
-x = int(x)
-y = int(y)
-z = x+y
 
-print(z)
+
+print(x)
 
 
 #for type casting: need pala mauna ang inputs or yung mga ipiprint bago mag typecast to new data type
