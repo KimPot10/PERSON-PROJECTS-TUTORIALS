@@ -7,7 +7,7 @@
 
 """"
 num2 = int(input("Enter Number: "))
-
+#nasa labas ang data type
 print(num2)
 """
 
@@ -38,6 +38,16 @@ print("I'm {}. Currently residing at {} {}".format(age, city, wordCity))
 """
 
 #positional arguements. parang array lang ito 
+""""
 print("{0} {1} {2}".format("Jerson", "U.", "Sagun"))
 print("{2} {0} {1}".format("Jerson", "U.", "Sagun"))
 print("{0} {1} {2} {3} {4}".format("Jowanie", "Maria", "Kensei", "Avanceña", "Medrano"))
+"""
+
+#Named Arguements
+print("Name: {name}, Age: {age}, Address: {address}".format(name = "Kim", age = 21, address =  "Senate Village"))
+
+print("{:^50}".format("Dito yung word?"))
+
+print("{:>20}".format("Hello, World!"))
+
