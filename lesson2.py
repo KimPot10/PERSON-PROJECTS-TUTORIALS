@@ -30,8 +30,14 @@ print("Contact Number: {}".format(contact))
 """
 
 #multiple Values. basta in order lang siya bes
+""""
 age = 21
 city = "Caloocan"
 wordCity = "City" 
 print("I'm {}. Currently residing at {} {}".format(age, city, wordCity))
+"""
 
+#positional arguements. parang array lang ito 
+print("{0} {1} {2}".format("Jerson", "U.", "Sagun"))
+print("{2} {0} {1}".format("Jerson", "U.", "Sagun"))
+print("{0} {1} {2} {3} {4}".format("Jowanie", "Maria", "Kensei", "Avanceña", "Medrano"))
