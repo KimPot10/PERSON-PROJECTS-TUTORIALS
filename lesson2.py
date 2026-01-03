@@ -51,3 +51,24 @@ print("{:^50}".format("Dito yung word?"))
 
 print("{:>20}".format("Hello, World!"))
 
+#types of Naming variables
+
+"""""
+ 3 MULTI WORDS VARIABLE NAMES
+*  Camel Case: my VariableName = "John"
+*  Pascal Case: MyVariableName = "John"
+*  Snake Case: my_variable_name = "John"
+CASE- Sensitive
+ Variable names are case-sensitive.
+Example
+This will create two variables:
+а = 4
+A = 'Sally'
+#A will not overwrite a
+
+INDENTATION 
+* In Python, Indentation is used to define blocks of code. It tells the Python interpreter that a group 
+of statements belongs to a specific block. All statements with the same level of indentation are considered part of the same block. 
+Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line. The most common convention is to use 4 spaces or a 
+tab, per level of indentation.
+""""
