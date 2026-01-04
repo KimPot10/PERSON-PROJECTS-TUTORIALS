@@ -45,17 +45,18 @@ print("{0} {1} {2} {3} {4}".format("Jowanie", "Maria", "Kensei", "Avanceña", "M
 """
 
 #Named Arguements
+"""
 print("Name: {name}, Age: {age}, Address: {address}".format(name = "Kim", age = 21, address =  "Senate Village"))
 
 print("{:^50}".format("Dito yung word?"))
 
 print("{:>20}".format("Hello, World!"))
-
+"""
 #types of Naming variables
 
 """""
  3 MULTI WORDS VARIABLE NAMES
-*  Camel Case: my VariableName = "John"
+*  Camel Case: myVariableName = "John"
 *  Pascal Case: MyVariableName = "John"
 *  Snake Case: my_variable_name = "John"
 CASE- Sensitive
@@ -71,4 +72,10 @@ INDENTATION
 of statements belongs to a specific block. All statements with the same level of indentation are considered part of the same block. 
 Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line. The most common convention is to use 4 spaces or a 
 tab, per level of indentation.
-""""
+"""
+
+camelCaseVariable = "thisIsCamelCase"
+PascalCaseVariable = "ThisIsPascalCase"
+snake_case_variable = "this_is_snake_case"
+
+print(camelCaseVariable)
