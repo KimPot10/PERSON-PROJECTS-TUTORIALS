@@ -15,9 +15,12 @@ print(num2)
 #format() method
 
 #basic usage
-"""""
+
 name = 'Jerson' 
 print("I'm {}".format(name))
+
+nickname = "Kim"
+print("My nickname is: {}".format(nickname))
 
 surname = 'Sagun'
 print("My Surname is: {}".format(surname))
@@ -27,7 +30,7 @@ print("My whole name is {}".format(surname))
 
 contact = "09602059511"
 print("Contact Number: {}".format(contact))
-"""
+
 
 #multiple Values. basta in order lang siya bes
 """"
@@ -74,8 +77,12 @@ Indentation is achieved using whitespace (spaces or tabs) at the beginning of ea
 tab, per level of indentation.
 """
 
+
+#Variables 
+"""
 camelCaseVariable = "thisIsCamelCase"
 PascalCaseVariable = "ThisIsPascalCase"
 snake_case_variable = "this_is_snake_case"
 
 print(camelCaseVariable)
+"""
