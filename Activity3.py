@@ -1,24 +1,22 @@
 print("=====Activity 3=====")
 
 #Input
-firstNum = input("Enter First Number: ")
-if not firstNum.isnumeric():
-    print("Exit.")
+a = int(input("Enter First Number: "))
+if not a.isnumeric():
+    print("Invalid input! Exiting program.")
     exit()
 
-secondNum = input("Enter Second Number: ")
-if not secondNum.isnumeric():
-    print("Exit.")
+b = int(input("Enter Second Number: "))
+if not b.isnumeric():
+    print("Invalid input! Exiting program.")
     exit()
     
-sepa = str(input("Enter Separator (special characters only): "))
-if not sepa.isalnum() and sepa != "" and not sepa.isspace():
+c = str(input("Enter Separator (special characters only): "))
+if not c.isalnum() and c != "" and not c.isspace():
     pass
 else:
     print("Invalid input! Exiting program.")
     exit()
 
-print((firstNum) * 6, int(secondNum) * 4, sep="&")
-
-
+print(str(a) * 6, str(b) * 4, sep=c)
 

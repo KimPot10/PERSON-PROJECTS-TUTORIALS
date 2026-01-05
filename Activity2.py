@@ -4,12 +4,12 @@ print("=====Activity 2=====")
 #Input
 word = str(input("Enter a Word: "))
 if not word.isalpha():
-    print("Exit")
+    print("Invalid input! Exiting program.")
     exit()
 
 num = str(input("Enter a Number: "))
 if not num.isnumeric():
-    print("Exit.")
+    print("Invalid input! Exiting program.")
     exit()
 
 num = int(num)

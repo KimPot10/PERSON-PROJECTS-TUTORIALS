@@ -15,8 +15,8 @@ if b.isnumeric():
     exit()
 
 #separator special character
-sepa = str(input("Enter Separator (special characters only): "))
-if not sepa.isalnum() and sepa != "" and not sepa.isspace():
+c = str(input("Enter Separator (special characters only): "))
+if not c.isalnum() and c != "" and not c.isspace():
     pass
 else:
     print("Invalid input! Exiting program.")
@@ -29,7 +29,7 @@ print(a, b, end="\n")
 print(a, b, end="")
 
 #With Separator
-print(a, sepa, b, sep="")
+print(a, sepa, b, sep=c)
 
 #Without space
 print(a, b, end="\n" , sep="")
