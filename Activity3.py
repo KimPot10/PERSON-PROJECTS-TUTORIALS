@@ -19,3 +19,6 @@ else:
     exit()
 
 print((firstNum) * 6, int(secondNum) * 4, sep="&")
+
+
+

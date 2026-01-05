@@ -14,3 +14,4 @@ if not num.isnumeric():
 
 num = int(num)
 print(word*num, end="\n")
+
