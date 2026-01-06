@@ -25,11 +25,11 @@ else:
 #With Space
 print(a, b, end="\n")
 
-#Without newline    
+#Without newline   
 print(a, b, end="")
 
 #With Separator
-print(a, sepa, b, sep=c)
+print(a, b, sep=c)
 
 #Without space
 print(a, b, end="\n" , sep="")
