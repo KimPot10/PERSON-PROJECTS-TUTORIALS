@@ -31,3 +31,17 @@ print(a, b, c)
 
 #ooooo tangina isang line lang din sila mapiprint
 #aaaaa kasi potangina yung isang print ng python automatic na new line na haha bwisit amp
+
+
+#global variables
+
+#Variables that are created outside of a function (as in all of the examples in the previous pages)
+#  are known as global variables. may tawag dito eh... basta global variables nga
+#Global variables can be used by everyone, both inside of functions and outside.
+
+globalVariables = "awesome"
+
+def globalVpractice():
+    print("Python is " + globalVariables)
+
+globalVpractice()
