@@ -71,3 +71,23 @@ def example_of_local_going_global():
 example_of_local_going_global()
 
 print("Python is " + x) 
+
+
+#Data types in python
+'''
+x = "Hello World"	str	
+x = 20	            int	
+x = 20.5	        float	
+x = 1j	            complex	
+x = ["apple", "banana", "cherry"]	list	lists are mutable, meaning their elements can be changed, added, or removed after creation
+x = ("apple", "banana", "cherry")	tuple	tuples are immutable, meaning their contents cannot be modified once defined
+x = range(6)	                    range	
+x = {"name" : "John", "age" : 36}	dict	
+x = {"apple", "banana", "cherry"}	set	
+x = frozenset({"apple", "banana", "cherry"})	frozenset	
+x = True	                                    bool	
+x = b"Hello"	                                bytes	
+x = bytearray(5)	                            bytearray	
+x = memoryview(bytes(5))	                    memoryview	
+x = None	                                    NoneType
+'''
