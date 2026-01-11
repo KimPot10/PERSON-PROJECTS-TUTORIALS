@@ -4,12 +4,11 @@ conversion = input("Convert from (C)elsius or (F)ahrenheit?")
 
 #CELSIUS FAHRENHEIT
 if conversion == "F":
-   
     far = (temp* 9/5) + 32
-    far = float(cel)
+    far = float(far)
     print("Celsius to fahrenheit is: " + str(far))
 
-elif == "C":
+elif conversion == "C":
     cel = (temp- 32) * 5/9
     cel = float(cel)
     print("Fahrenheit to celsius is: " + str(cel))
