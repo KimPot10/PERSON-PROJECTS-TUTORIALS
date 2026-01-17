@@ -6,4 +6,26 @@ for i in range (1, 6):
     print('*' * i)
     # asterisk multiplied by the iteration. kada row ma-multiply siya
 
+"""
+For any pattern, ask yourself these questions:
+
+How many rows? → Your outer loop... 5
+For each row, what do I print? → Your inner calculations
+
+How many spaces?
+How many stars/symbols?
+What's the pattern/formula?
+
+
+Break it into parts:
+
+Top half vs bottom half
+Left side vs right side
+"""
 #without ai. paano mo siya gagawing pyramid?
+
+rows = 5
+for i in range(1, rows + 1):
+    spaces = rows - i
+    stars = (2 * i) - 1
+    print(' ' * spaces + '*' * stars)
