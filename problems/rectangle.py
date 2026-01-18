@@ -5,4 +5,4 @@ length = float(input("Enter Length: "))
 width = float(input("Enter Width: "))
 
 area = length * width
-print("The area is:", area)
+print("The area is:", area) 
