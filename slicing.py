@@ -6,4 +6,9 @@ H E L L L O
 """
 
 x = "HELLO"
+print(x[0])
 print(x[1])
+print(x[2])
+print(x[3])
+print(x[4])
+
