@@ -43,3 +43,6 @@ myFruits = [banana, strawberry, apple, etc]
 
 
 #comment to commit
+
+for i in range(1, 5):
+   print("hello", i)
