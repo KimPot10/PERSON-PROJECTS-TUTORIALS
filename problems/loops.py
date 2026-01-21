@@ -46,3 +46,9 @@ myFruits = [banana, strawberry, apple, etc]
 
 for i in range(1, 5):
    print("hello", i)
+
+
+count = 5
+while count <= 10:
+   print(count)
+   count += 1
