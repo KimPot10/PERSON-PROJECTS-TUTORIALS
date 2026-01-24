@@ -16,9 +16,16 @@ while rate <= 0:
     if rate <= 0:
         print("Interest Rate is not Valid.")
     else:
-        rate * 0.01
+        rate /= 100 
 
 while time <= 0:
     time = int(input("Enter Time in Years: "))
     if time <= 0:
         print("Time is counted in years")
+
+final = float(principle(1 + rate)^time)
+
+print("Principle: ", principle)
+print("Rate: ", rate)
+print("Time in years: ", time)
+print("Interest: ", final)
