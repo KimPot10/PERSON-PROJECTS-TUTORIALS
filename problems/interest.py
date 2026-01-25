@@ -23,7 +23,7 @@ while time <= 0:
     if time <= 0:
         print("Time is counted in years")
 
-final = float(principle(1 + rate)^time)
+final = principle*(1 + rate)**time
 
 print("Principle: ", principle)
 print("Rate: ", rate)
