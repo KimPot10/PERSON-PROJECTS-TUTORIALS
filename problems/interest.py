@@ -26,6 +26,6 @@ while time <= 0:
 final = principle*(1 + rate)**time
 
 print("Principle: ", principle)
-print("Rate: ", rate)
+print(f"Rate: {rate}%")
 print("Time in years: ", time)
 print("Interest: ", final)
