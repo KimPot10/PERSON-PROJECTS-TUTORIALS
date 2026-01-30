@@ -55,6 +55,6 @@ has_lowercase = False
 if len(password) == 8:
     is_long_enoug = True
 
-# 
+# loop
 
 for password 
