@@ -47,8 +47,9 @@ password = input("Enter password: ")
 # validators variables
 
 has_number = False
-has_uppercase = False
-has_lowercase = False
+has_upper = False
+has_lower = False
+is_long_enough = False
 
 # check the length
 
@@ -57,4 +58,18 @@ if len(password) == 8:
 
 # loop
 
-for password 
+for char in password:
+    if char.isdigit():
+        has_number = True
+    if char.isupper():
+        has_upper = True
+    if char.islower():
+        has_lower = True
+    password = input("Enter password: ")
+    
+# Step 5: Check if ALL requirements are met
+if has_number and has_upper and has_lower and is_long_enough:
+    print("Password is strong!")
+else:
+    print("Password is weak")
+    # Print what's missing
